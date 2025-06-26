@@ -14,13 +14,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Convert your jpg or jpeg files to the png file type instantly online. Quick & easy!">
-	<meta name="google-adsense-account" content="ca-pub-4486514398618977">
+	<meta name="description" content="Convert your jpg files to the png image file type instantly online with zero waiting in just 1 second.">
 
-    <title>Online Jpg to Png File converter</title>
+    <title>How to Instantly Convert Jpg Files to Png</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -34,7 +35,7 @@
       <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.webp" alt="Free JPG to PNG Converter Logo"></a>       
+          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -73,7 +74,7 @@
               <div class="contents text-center">
                 <div class="icon">
                 </div>
-                <h2 class="head-title">Jpg to Png Converter</h2>
+                <h2 class="head-title">Instant Jpg to Png Converter</h2>
                 <p class="banner-desc">Simply select your Jpg file and it will instantly convert & download as a Png image file type!</p>
                 <div class="banner-btn">
                   <form action="form.php" method="post" enctype="multipart/form-data" id="fileUploadForm">
@@ -94,7 +95,7 @@
     <!-- Tutorial Section Start -->
 	<div id="tutorial" class="ready-to-play"> 
 	  <iframe id="bgvid" 
-		src="https://www.youtube.com/embed/U3OeQVvuhPg" 
+		src="https://www.youtube.com/embed/U3OeQVvuhPg?autoplay=1&mute=1&loop=1" 
 		frameborder="0" 
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 		allowfullscreen>
@@ -282,6 +283,7 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/video.js"></script>
     <script src="assets/js/main.js"></script> 
 
 	<script>
@@ -318,56 +320,7 @@
     // Update the label text
     document.querySelector('label[for="filesToUpload"]').textContent = 'Selected: ' + fileDisplay;
   }
-	</script>
-	
-	<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "How do I convert JPG to PNG?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Simply upload your JPG file, and our tool will instantly convert it to PNG without losing quality."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Is the JPG to PNG converter free?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, our JPG to PNG converter is completely free to use."
-        }
-      }]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "JPG to PNG Converter",
-      "description": "Convert JPG to PNG online for free. No signup required, high-quality conversions, and fast processing speed.",
-      "applicationCategory": "ImageConversion",
-      "operatingSystem": "All",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "JPG to PNG Converter",
-      "description": "Convert your jpg or jpeg files to the png file type instantly online. Quick & easy!",
-      "url": "https://www.jpgtopngconverter.online",
-      "inLanguage": "en"
-    }
-    </script>
+	</script>	
 	
   </body>
 </html>
